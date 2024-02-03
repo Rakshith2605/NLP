@@ -9,11 +9,11 @@ This code is a simple text summarization tool using a frequency-based approach. 
    - The global variable `article_text` is initialized to store the input text.
 
 3. **Text Summarization Function (`generate_summary`):**
-   - This function takes the article text, cleans it by removing non-alphabetic characters and extra spaces.
-   - It then tokenizes the cleaned text into sentences and words.
-   - Calculates word frequencies, normalizes them, and assigns scores to sentences based on word frequencies.
-   - Selects the top 5 sentences with the highest scores as the summary.
-   - Updates the Tkinter text widget with the generated summary and sets the window title.
+   * This function removes whitespace and non-alphanumeric characters from the article text.
+   * As a next step, it breaks the cleaned text down into words and phrases using tokenization.
+   * Scores sentences according to word frequencies after calculating and normalizing them.
+   * Uses the five most highly rated sentences to create the summary.
+   * The function sets the title of the window and updates the Tkinter text widget with the created summary.
 
 4. **Input Handling Function (`get_input`):**
    - Retrieves the input article text from the Tkinter text widget.
