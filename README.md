@@ -29,8 +29,10 @@ This code is a simple text summarization tool using a frequency-based approach. 
    - The script processes the input, analyzes word frequencies, scores sentences, and displays a concise summary in the text box.
 
 **Key Points:**
-   - The summarization is based on the frequency of words, giving importance to words occurring more frequently.
-   - It's a straightforward tool that provides a quick summary of the input text.
-   - The GUI allows for a user-friendly interaction.
+   - Summarization is based on word frequency, with more frequently occurring words given more weight.
+   - It's an easy-to-use tool that summarises the entered text quickly.
+   - An interface that is easy to use is provided by the GUI.
 
-This script is a basic introduction to text summarization and can be enhanced with more advanced techniques for better accuracy and effectiveness.
+
+This script is a fundamental introduction to the process of text summarization, and it has the potential to be improved with more complex techniques in order to achieve more precision and efficiency.
+
