@@ -23,7 +23,7 @@ This code is a simple text summarization tool using a frequency-based approach. 
 
 6. **Example Usage:**
    - User pastes or types an article into the provided text box.
-   - Clicks the 'Summarize' button.
+   - Clicks the `Summarize` button.
    - The script processes the input, analyzes word frequencies, scores sentences, and displays a concise summary in the text box.
 
 **Key Points:**
