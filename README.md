@@ -9,21 +9,22 @@ This code is a simple text summarization tool using a frequency-based approach. 
    - The global variable `article_text` is initialized to store the input text.
 
 3. **Text Summarization Function (`generate_summary`):**
-   * This function removes whitespace and non-alphanumeric characters from the article text.
-   * As a next step, it breaks the cleaned text down into words and phrases using tokenization.
-   * Scores sentences according to word frequencies after calculating and normalizing them.
-   * Uses the five most highly rated sentences to create the summary.
-   * The function sets the title of the window and updates the Tkinter text widget with the created summary.
+   - Using this function, whitespace and characters that are not comprised of alphabetic characters are removed from the article text.
+   - The cleaned text is then tokenized, which is the following step in the process, which breaks the text down into individual words and phrases.
+   - After calculating and normalizing the sentences, it assigns a score based on the frequency of the words in the sentences.
+   - When creating the summary, it makes use of the five sentences that received the highest ratings.
+   - This function is responsible for setting the title of the window and updating the Tkinter text widget with the summary that was prepared.
 
-4. **Input Handling Function (`get_input`):**
+
+5. **Input Handling Function (`get_input`):**
    - Retrieves the input article text from the Tkinter text widget.
    - Calls the `generate_summary` function to generate and display the summary.
 
-5. **GUI Setup (`tkinter` Window):**
+6. **GUI Setup (`tkinter` Window):**
    - Creates a Tkinter window with a specified size.
    - Includes a text widget for input and a button to trigger the summarization process.
 
-6. **Example Usage:**
+7. **Example Usage:**
    - User pastes or types an article into the provided text box.
    - Clicks the `Summarize` button.
    - The script processes the input, analyzes word frequencies, scores sentences, and displays a concise summary in the text box.
